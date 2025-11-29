@@ -7,6 +7,11 @@ body {
     margin-top: 80px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* navbar  */
 nav {
     position: fixed;
@@ -86,6 +91,8 @@ main {
 }
 
 .main-button {
+      font-family: "Science Gothic", sans-serif;
+ font-weight: 600;
     padding: 15px 60px;
     border-radius: 50px;
     border: none;
@@ -114,56 +121,182 @@ main {
 /* arrivals */
 
 .arrivals-title {
-  font-family: "Science Gothic", sans-serif;
-  font-weight: 600;    text-align: center;
+    font-family: "Science Gothic", sans-serif;
+    font-weight: 600;
+    text-align: center;
     margin-top: 50px;
 }
 
 .products-parent {
+
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 30px;
 
 }
 
 .product-card {
+    padding: 8px;
     margin: 0px 100px;
     border-radius: 20px;
     gap: 30px;
+    transition: 0.3s ease;
 }
 
 .product-image {
+    box-shadow: 0px 0px 20px grey;
     border-radius: 20px;
 }
-.information{
+
+.information {
     gap: 20px;
-     font-family: "Kalam", cursive;
-  font-weight: 300;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
 }
 
-hr{
-    margin:50px 200px;
-    
+.product-card:hover {
+
+    box-shadow: 0px 0px 20px grey;
+    transform: scale(1.1, 1.1);
 }
 
-.get-item{
+hr {
+    margin: 50px 200px;
+
+}
+
+.get-item {
     display: flex;
     justify-content: space-between;
 }
 
-.get-button{
+.get-button {
     padding: 10px 40px;
     border-radius: 10px;
     border: none;
     background-color: black;
     color: white;
-    font-family:"Science Gothic", sans-serif; 
+    font-family: "Science Gothic", sans-serif;
     transition: 0.3s ease;
 }
 
-.get-button:hover{
+.get-button:hover {
     box-shadow: 0px 0px 20px grey;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
+
+.top-title {
+    text-align: center;
+    font-family: "Science Gothic", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.explore {
+    font-family: "Science Gothic", sans-serif;
+
+    margin-top: 60px;
+    position: relative;
+    right: 50%;
+    left: 46%;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.explore:hover{
+box-shadow: 0px 0px 40px grey;
+transform: scale(1.1,1.1);
+}
+.catagory-box{
+    background-color: rgba(167, 167, 167, 0.179);
+    margin: 150px;
+    border-radius: 50px;
+}
+.catagory-title{
+    text-align: center;
+      font-family: "Science Gothic", sans-serif;
+ font-weight: 600;
+padding-top: 40px;
+ margin-bottom: 50px;
+}
+
+.catagorys{
+margin-left: 50px;
+    display:flex;
+    flex-direction: column;
+}
+
+.top-side{
+    gap: 20px;
+    display: flex;
+}
+
+.bottom-side{
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.footer {
+  background: #111;
+  color: #ddd;
+  padding: 50px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer h3, .footer h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: red;
+}
+
+.social-icons a {
+  color: #ddd;
+  margin-right: 15px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: red;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
