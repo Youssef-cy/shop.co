@@ -1,24 +1,24 @@
-
 * {
     margin: 0px;
     padding: 0px;
 }
+
 body {
-  margin-top: 80px;
+    margin-top: 80px;
 }
 
 /* navbar  */
 nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: white;
-  padding: 20px 30px;
-  width: 1450px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px 30px;
+    width: 1450px;
 }
 
 
@@ -74,7 +74,6 @@ main {
     padding-top: 90px;
     font-family: 'Roboto Flex', sans-serif;
     transform: scaleX(1.2);
-    /* تزود العرض */
     display: inline-block;
     line-height: 70px;
 }
@@ -94,6 +93,12 @@ main {
     color: white;
     margin-left: 110px;
     margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.main-button:hover {
+    box-shadow: 0px 0px 60px rgb(136, 136, 136);
+    transform: scale(1.1, 1.1);
 }
 
 .statistics {
@@ -109,8 +114,56 @@ main {
 /* arrivals */
 
 .arrivals-title {
-    font-family: 'Roboto Flex', sans-serif;
-    text-align: center;
+  font-family: "Science Gothic", sans-serif;
+  font-weight: 600;    text-align: center;
     margin-top: 50px;
 }
 
+.products-parent {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.product-card {
+    margin: 0px 100px;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+.product-image {
+    border-radius: 20px;
+}
+.information{
+    gap: 20px;
+     font-family: "Kalam", cursive;
+  font-weight: 300;
+}
+
+hr{
+    margin:50px 200px;
+    
+}
+
+.get-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family:"Science Gothic", sans-serif; 
+    transition: 0.3s ease;
+}
+
+.get-button:hover{
+    box-shadow: 0px 0px 20px grey;
+    transform: scale(1.1,1.1);
+}
