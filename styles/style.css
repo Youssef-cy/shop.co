@@ -1,0 +1,116 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  margin-top: 80px;
+}
+
+/* navbar  */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px 30px;
+  width: 1450px;
+}
+
+
+
+select {
+    border: none;
+    font-size: 22px;
+    margin-top: 5px;
+    outline: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.search {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50px;
+
+}
+
+.search-feild {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    width: 400px;
+    outline: none;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+/* main */
+
+main {
+    background-image: url("../assets/Rectangle 2.png");
+    height: 660px;
+}
+
+.main-title {
+    font-size: 70px;
+    margin-left: 160px;
+    padding-top: 90px;
+    font-family: 'Roboto Flex', sans-serif;
+    transform: scaleX(1.2);
+    /* تزود العرض */
+    display: inline-block;
+    line-height: 70px;
+}
+
+.main-p {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 120px;
+    color: rgb(161, 161, 161);
+}
+
+.main-button {
+    padding: 15px 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.statistics {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.totle-brands {
+    margin-left: 110px;
+}
+
+/* arrivals */
+
+.arrivals-title {
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
